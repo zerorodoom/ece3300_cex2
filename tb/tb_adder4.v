@@ -30,28 +30,28 @@ module adder4_tb;
     expected[1] = 5'd2;
     expected[2] = 5'd30;
     expected[3] = 5'd15;
-    expected[4] = 5'd0;
-    expected[5] = 5'd0;
-    expected[6] = 5'd0;
-    expected[7] = 5'd0;
+	 expected[4] = 5'd5;
+	 expected[5] = 5'd22;
+	 expected[6] = 5'd30;
+	 expected[7] = 5'd19;
 
     testa[0] = 4'd0;
     testa[1] = 4'd1;
     testa[2] = 4'd15;
     testa[3] = 4'd7;
-    testa[4] = 4'd0;
-    testa[5] = 4'd0;
-    testa[6] = 4'd0;
-    testa[7] = 4'd0;
+	 testa[4] = 4'd2;
+	 testa[5] = 4'd10;
+	 testa[6] = 4'd21;
+	 testa[7] = 4'd9;
 
     testb[0] = 4'd0;
     testb[1] = 4'd1;
     testb[2] = 4'd15;
     testb[3] = 4'd8;
-    testb[4] = 4'd0;
-    testb[5] = 4'd0;
-    testb[6] = 4'd0;
-    testb[7] = 4'd0;
+	 testb[4] = 4'd3;
+	 testb[5] = 4'd12;
+	 testb[6] = 4'd9;
+	 testb[7] = 4'd10;
  end
 
    
