@@ -11,12 +11,12 @@ module adder4(
 	      input [3:0]      a,
 	      input [3:0]      b,
 	      output [4:0] result);
-wire w1, w2, w3, Cout;
+wire w1, w2, w3;
 	
 	fulladd fa0(a[0], b[0], 0, result[0], w1);
 	fulladd fa1(a[1], b[1], w1, result[1], w2);
 	fulladd fa2(a[2], b[2], w2, result[2], w3);
-	fulladd fa3(a[3], b[3], w3, result[3], Cout);
+	fulladd fa3(a[3], b[3], w3, result[3], result[4]);
    
 endmodule
 
